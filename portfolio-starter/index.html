@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name: projects, skills, and contact details." />
+  <meta property="og:title" content="Your Name — Portfolio" />
+  <meta property="og:description" content="Projects, skills, and contact details." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.png">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#">YN</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="btn">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero container">
+      <p class="kicker">Hello! I'm</p>
+      <h1>Michael Redozubov</h1>
+      <p class="sub">I build fast, accessible web experiences. Currently seeking opportunities in Frontend / Full‑Stack.</p>
+      <div class="cta">
+        <a class="btn" href="#projects">See my work</a>
+        <a class="btn secondary" href="assets/YourName_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+      </div>
+      <ul class="meta">
+        <li>📍 City, Country</li>
+        <li>✉️ <a href="mailto:you@email.com">you@email.com</a></li>
+        <li>🔗 <a href="https://github.com/yourname" target="_blank" rel="noopener">GitHub</a></li>
+        <li>🔗 <a href="https://www.linkedin.com/in/yourname" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </section>
+  </header>
+
+  <main>
+    <section id="projects" class="section container">
+      <h2>Featured Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="assets/placeholder-1.jpg" alt="Screenshot of Project One" />
+          <div class="card-body">
+            <h3>Project One</h3>
+            <p>Brief one‑sentence description focusing on the problem, your role, and the impact.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <div class="links">
+              <a href="#" target="_blank" rel="noopener">Live Demo</a>
+              <a href="#" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/placeholder-2.jpg" alt="Screenshot of Project Two" />
+          <div class="card-body">
+            <h3>Project Two</h3>
+            <p>One‑liner highlighting metrics if possible (e.g., “reduced load time by 35%”).</p>
+            <div class="tags"><span>React</span><span>Node</span></div>
+            <div class="links">
+              <a href="#" target="_blank" rel="noopener">Live Demo</a>
+              <a href="#" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/placeholder-3.jpg" alt="Screenshot of Project Three" />
+          <div class="card-body">
+            <h3>Project Three</h3>
+            <p>Summarize the technical challenge you solved and what you learned.</p>
+            <div class="tags"><span>TypeScript</span><span>API</span></div>
+            <div class="links">
+              <a href="#" target="_blank" rel="noopener">Live Demo</a>
+              <a href="#" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React</li>
+        <li><strong>Backend:</strong> Node.js, Express</li>
+        <li><strong>Tools:</strong> Git, GitHub, VS Code</li>
+        <li><strong>Other:</strong> Accessibility, Responsive Design, Testing</li>
+      </ul>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>About</h2>
+      <p>Write 3–4 sentences about your background, what you enjoy building, and what you're looking for in your next role.</p>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+      <p>Best way to reach me: <a href="mailto:you@email.com">you@email.com</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> Your Name. Built with HTML/CSS/JS. </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
